@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tutorialsninja Suite">
+
+<listeners>
+	<listener class-name = "com.tutorialsninja.qa.Listeners.pt2.MyListeners" />
+</listeners>
+
+  <test name="Tutorialsninja Test">
+  
+    <classes>
+      <class name="com.tutorialsninja.qa.TestCases.pt2.LoginTest"/>
+      <class name="com.tutorialsninja.qa.TestCases.pt2.SearchProductTest"/>
+      <class name="com.tutorialsninja.qa.TestCases.pt2.RegisterTest"/>
+      <class name="com.tutorialsninja.qa.TestCases.pt2.AddToCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
